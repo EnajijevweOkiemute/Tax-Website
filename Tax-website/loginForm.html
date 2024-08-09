@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <title>Login Page</title>
+  <link href ="loginForm.css" rel = "stylesheet">
+</head>
+<body>
+    <h2><a href='loginForm.html'>Login Form</a></h2> 
+   <p>New to us, then <a href='#'>Sign up</a></p>
+    <form action="loginForm.php" method = 'get' autocomplete='off' class="form-border">
+      <div class='img-container'>
+        <p></p>
+        <span></span>
+        <img class='avatar' src='images/cute-baby-avatar.avif' alt='cute-baby-boy-profile-picture-kid-avatar.avif'>
+      </div>
+      <div class='container'>
+        <label for="userName">
+          <b>Username</b><input type="text" name='username' id="username" placeholder="Username" required autofocus>
+        </label>
+        <label for='password'> 
+          <b>Password</b><input type='password' name='password' id='password' placeholder="Password" required autofocus>
+        <button type='submit'>Login</button>   
+        </div>
+        <label for ='remember me'>
+        <input type='checkbox' checked='checked' name='remember-me'>
+        <b>Remember me</b>
+        </label>
+      </div>
+      <div class='container'>
+        <button type='button' class='cancel-btn'>Cancel
+        </button>
+        <span class='forgot-password'>Forgot<a href='#'> password?</a></span>
+      </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+  
